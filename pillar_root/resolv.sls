@@ -2,7 +2,7 @@ resolv:
   search:
     - 'example.com'
     - 'ent.example.com'
-  {% if 'dmz' in grains['roles'] %}
+  {% if 'dmz' in grains.('roles', '') %}
   servers:
     - '192.168.1.103'
   {% else %}
