@@ -6,10 +6,10 @@
     - source: salt://roles/files/roles
     - template: jinja
 
-refresh_grains:
-  module.run:
-    - name: saltutil.sync_grains
-    - require:
-      - file: /var/cache/salt/minion/roles
-    - onchanges:
-      - file: /var/cache/salt/minion/roles
+#refresh_grains:
+  #module.run:
+    #- name: saltutil.sync_grains
+    #- require:
+      #- file: /var/cache/salt/minion/roles
+    #- onchanges:
+      #- file: /var/cache/salt/minion/roles
