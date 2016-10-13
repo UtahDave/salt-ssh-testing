@@ -1,0 +1,5 @@
+# {{ pillar['file_header'] }}
+# Format of this file
+# fqdn:role1,role2
+salttest01.example.com:test,vecapp,th
+issue902:test,vecapp,th
