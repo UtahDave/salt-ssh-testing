@@ -1,0 +1,7 @@
+## example /etc/salt/roster file
+# cat /etc/salt/roster
+
+issue902:
+  host: 10.181.130.219
+  user: root
+  priv: /root/.ssh/saltgit
