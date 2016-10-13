@@ -10,3 +10,5 @@ resolv:
     - '192.168.5.33'
     - '192.168.5.34'
   {% endif %}
+
+file_header: 'Test header info'
