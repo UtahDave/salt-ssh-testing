@@ -4,7 +4,7 @@
     - user: root
     - group: root
     - source: salt://roles/files/roles
-    - mkdirs: True
+    - makedirs: True
     - template: jinja
 
 #refresh_grains:
