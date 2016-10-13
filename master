@@ -1,0 +1,16 @@
+## master config used in this example
+# cat /etc/salt/master
+
+fileserver_backend:
+  - git
+
+  gitfs_provider: pygit2
+
+  gitfs_remotes:
+    - https://github.com/UtahDave/salt-ssh-testing.git:
+      - root: file_root
+
+ext_pillar:
+  - git:
+    - master https://github.com/UtahDave/salt-ssh-testing.git:
+      - root: pillar_root
