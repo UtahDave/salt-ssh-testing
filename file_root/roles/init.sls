@@ -5,7 +5,6 @@
     - group: root
     - source: salt://roles/files/roles
     - template: jinja
-    #- order: {{ salt['pillar.get']('order:roles', []) }}
 
 refresh_grains:
   module.run:

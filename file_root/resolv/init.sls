@@ -6,4 +6,3 @@ dns:
     - mode: '0644'
     - source: salt://resolv/files/resolv.conf
     - template: jinja
-    #- order: {{ pillar['order']['resolv'] }}
